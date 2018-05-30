@@ -1,0 +1,32 @@
+﻿<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Тестовое задание Степан Тетерин</title>
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <script src="./scripts/script.js"></script>
+    </head>
+    <body>
+        <section>
+            <div class="info">
+                <p>Тестовое задание. Выполнил: Тетерин Степан. StepanTeterin@gmail.com</p>
+            </div>
+        </section>
+        <form class="jobUnit">
+            <p>Напишите в форму ввода над графиком необходимое значение:</p>
+            <span class="question">
+                <p id="val1"></p>+
+                <p id="val2"></p>=
+                <div id="summ">?</div>
+            </span>
+            <div class="inputs">
+                <input type="text" id="firstValues" onchange="checkValues(this)">
+                <input type="text" id="secondValues" onchange="checkValues(this)">
+            </div>
+            <canvas id="canvasSection">Браузер не поддерживает canvas</canvas>
+            <img id="qustionImg" src="./img/sprite.png" alt="График">
+            <input type="button" OnClick="start()" value="Начать">
+        </form>
+    </body>
+
+</html>

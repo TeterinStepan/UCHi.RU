@@ -1,0 +1,44 @@
+﻿html,body{
+    margin: 0;
+    padding: 0;
+        background-color: whitesmoke;
+        font-family: helvetica
+}
+.jobUnit{
+    width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: white;
+}
+.jobUnit .question{
+    width: 80%;
+    margin: 1em auto;
+    display: table;
+}
+.question p,span,div{
+    text-align: center;
+    display: inline;
+    padding: 0em 0.2em;
+    border-radius: 2px;
+}
+.jobUnit img{
+    margin:0 auto 0;
+    width: inherit;
+}
+.jobUnit #canvasSection{
+    padding: 0px;
+    width: inherit;
+    height: 80px;
+    margin-bottom: -5%;
+    background: none;
+}
+.inputs input{
+    opacity: 0;
+    margin-bottom: -5%;
+}
+input[type="text"]{
+    width: 1.5em;
+    height: auto;
+    text-align: center;
+}
